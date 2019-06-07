@@ -44,4 +44,4 @@ To use the plugin, add 'flutter_broadcast_whatsapp' as a dependency in your pubs
    
 ## Example 
 
-    Refer to the <h7>example</h7> directory in the flutter app.
+    Refer to the example directory in the flutter app.
