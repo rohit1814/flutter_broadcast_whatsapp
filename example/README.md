@@ -1,11 +1,12 @@
 # flutter_broadcast_whatsapp_example
 
-Demonstrates how to use the flutter_broadcast_whatsapp plugin.
-
+    A new flutter plugin that will broadcast flutter plugin.
+    
 ## Getting Started
 
 This project is a starting point for a Flutter application.
 
+### Few resources
 A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)

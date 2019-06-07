@@ -1,23 +1,18 @@
 # flutter_broadcast_whatsapp
 
-A new Flutter plugin that will broadcast whatsapp messages to the five users simultaneously.
+A flutter plugin that will broadcast whatsapp messages to the five users simultaneously.
 
 ## Installation 
 
 To use the plugin, add 'flutter_broadcast_whatsapp' as a dependency in your pubspec.yaml file.
 
+## Plugin package link
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+[plug-in package](https://pub.dev/packages/flutter_broadcast_whatsapp),
 
-## Example
+## Usage
 
     import 'package:flutter/material.dart';
-    import 'dart:async';
-    
-    import 'package:flutter/services.dart';
     import 'package:flutter_broadcast_whatsapp/flutter_broadcast_whatsapp.dart';
     
     void main() => runApp(MyApp());
@@ -27,31 +22,7 @@ Android and/or iOS.
       _MyAppState createState() => _MyAppState();
     }
     
-    class _MyAppState extends State<MyApp> {
-      String _platformVersion = 'Unknown';
-    
-      @override
-      void initState() {
-        super.initState();
-        initPlatformState();
-      }
-    
-      // Platform messages are asynchronous, so we initialize in an async method.
-      Future<void> initPlatformState() async {
-        String platformVersion;
-        try {
-          platformVersion = await FlutterBroadcastWhatsapp.platformVersion;
-        } on PlatformException {
-          platformVersion = 'Failed to get platform version.';
-        }
-    
-        if (!mounted) return;
-    
-        setState(() {
-          _platformVersion = platformVersion;
-        });
-      }
-    
+    class _MyAppState extends State<MyApp> {    
       @override
       Widget build(BuildContext context) {
         return MaterialApp(
@@ -65,9 +36,12 @@ Android and/or iOS.
         },
         child: Text('Running on: $_platformVersion\n'),
         )
-        ),
-        ),
-        );
-      }
+       ),
+      ),
+     );
     }
-    
+   }
+   
+## Example 
+
+    Refer to the example directory in the flutter app.
