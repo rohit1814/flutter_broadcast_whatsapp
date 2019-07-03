@@ -1,6 +1,6 @@
 name: flutter_broadcast_whatsapp
-description: A new Flutter plugin that will broadcast whatsapp messages.
-version: 0.0.1
+description: A new Flutter plugin that will broadcast whatsapp messages to five users.
+version: 0.1.1
 author: Rohit Kesarwani<rohitkesari1814@gmail.com>
 homepage: https://github.com/rohit1814/flutter_broadcast_whatspp
 

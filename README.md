@@ -1,14 +1,14 @@
 # flutter_broadcast_whatsapp
 
-A flutter plugin that will broadcast whatsapp messages to the five users simultaneously.
+    A flutter plugin that will broadcast whatsapp messages to the five users simultaneously.
 
 ## Installation 
 
-To use the plugin, add 'flutter_broadcast_whatsapp' as a dependency in your pubspec.yaml file.
+    To use the plugin, add 'flutter_broadcast_whatsapp' as a dependency in your pubspec.yaml file.
 
 ## Plugin package link
 
-[plug-in package](https://pub.dev/packages/flutter_broadcast_whatsapp),
+[plug-in package](https://github.com/rohit1814/flutter_broadcast_whatsapp)
 
 ## Usage
 
@@ -22,7 +22,7 @@ To use the plugin, add 'flutter_broadcast_whatsapp' as a dependency in your pubs
       _MyAppState createState() => _MyAppState();
     }
     
-    class _MyAppState extends State<MyApp> {    
+    class _MyAppState extends State<MyApp> {
       @override
       Widget build(BuildContext context) {
         return MaterialApp(
